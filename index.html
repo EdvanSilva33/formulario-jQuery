@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+        <form action="" id="form">
+            <div class="informacao">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="name" placeholder="Digite seu nome">
+                </div>
+
+                <div>
+                    <label for="sobrenome">Sobre Nome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Diginte seu Sobre nome">
+                </div>
+
+            </div>
+
+            <div class="informacao">
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone">
+                </div>
+            </div>
+
+
+            <div class="informacao">
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                </div>
+                <div>
+                    <label for="cep"> CEP:</label>
+                    <input type="text" name="cep" id="cep">
+                </div>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_PT.min.js"></script>
+    <script src="./js/main.js"></script>
+    </script>
+</body>
+
+</html>
